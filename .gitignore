@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+
+# Node.js
+node_modules/
+
+# Java / Spring Boot
+target/
+*.jar
+
+# OS / IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Large AI/ML files
+*.dll
+*.lib
