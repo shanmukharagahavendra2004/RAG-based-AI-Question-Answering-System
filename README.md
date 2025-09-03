@@ -25,25 +25,24 @@ venv\Scripts\activate      # Windows
 3.Install dependencies
 pip install -r requirements.txt
 
-Running the Backend
-uvicorn chat:app --reload --host 0.0.0.0 --port 9090
+4.Running the Backend
+-uvicorn chat:app --reload --host 0.0.0.0 --port 9090
 
-🔑 Hugging Face API Setup
-Get a free API key from Hugging Face
-Save it as an environment variable:
-export HF_API_KEY="your_hf_api_key"
+5.🔑 Hugging Face API Setup
+      Get a free API key from Hugging Face
+      Save it as an environment variable:
+      export HF_API_KEY="your_hf_api_key"
 
-Spring Boot Setup : 
-1. Navigate to Spring Boot project
-   cd spring-boot-backend
+6.Spring Boot Setup  
+   1. Navigate to Spring Boot project
+      cd spring-boot-backend
 
-2. Build with Maven
-   mvn clean install
+   2. Build with Maven
+      mvn clean install
 
-3. Run Spring Boot
-   mvn spring-boot:run
+   3. Run Spring Boot
+      mvn spring-boot:run
 
-💻 Frontend : 
-npm install
-npm start
+7.💻 Frontend  
+    npm start
 
