@@ -33,7 +33,7 @@ Get a free API key from Hugging Face
 Save it as an environment variable:
 export HF_API_KEY="your_hf_api_key"
 
-Spring Boot Setup
+Spring Boot Setup : 
 1. Navigate to Spring Boot project
    cd spring-boot-backend
 
@@ -43,7 +43,7 @@ Spring Boot Setup
 3. Run Spring Boot
    mvn spring-boot:run
 
-💻 Frontend
+💻 Frontend : 
 npm install
 npm start
 
