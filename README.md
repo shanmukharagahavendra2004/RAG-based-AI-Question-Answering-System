@@ -25,7 +25,7 @@ venv\Scripts\activate      # Windows
 3.Install dependencies
   pip install -r requirements.txt
 
-4.Running the Backend
+4.Running the Backend :
 -uvicorn chat:app --reload --host 0.0.0.0 --port 9090
 
 5.🔑 Hugging Face API Setup
@@ -43,6 +43,6 @@ venv\Scripts\activate      # Windows
    3. Run Spring Boot
       mvn spring-boot:run
 
-7.💻 Frontend  
-     - npm start
+7.💻 Frontend :
+     npm start
 
